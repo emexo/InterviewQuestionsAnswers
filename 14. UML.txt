@@ -1,0 +1,97 @@
+1. Explain Deployement Diagram?
+	
+	- Used for describing the hardware components where software components are deployed
+	
+	- Component diagrams are used to describe the components and deployement diagram shows how they are deployed in hardware
+	
+	- Deployement diagrams consist of nodes 
+	
+	- Nodes are nothing but physical hardwares used to deploy the application
+	
+	- Describe the physical components  and their distribution and association
+	
+	
+2. Explain Use Case diagram?
+
+	- Capture the dynamic aspects of a system
+	
+	- used to get the requirements of a system including internal and external influences 
+	
+	- these requirements are mostly design requirements
+	
+	- when a system is analyzed to gather its functionalities use cases are prepared and actors are identified.
+	
+	- uses cases are nothing but the system functionalities written in an organized manner.
+	
+	
+3. Explain Interaction Diagram?
+
+	- Describe some types of interactions amoung the different elements in the model.
+	
+	-  This interaction is part of dynamic behaviour of the system
+	
+	- Sequence diagram and collaboration diagrams are used in UML for this purpose
+	
+	- Sequence Diagram - Emphasizes on time sequences of messages
+	
+	- Collaboration Diagram - Emphasis on the structural organization of objects that send and receive messages
+	
+	So the following things are to identified clearly before drawing the interaction diagram:
+
+		- Objects taking part in the interaction.
+
+		- Message flows among the objects.
+
+		- The sequence in which the messages are flowing.
+
+		- Object organization.
+		
+	- The message flow is nothing but a method call of an object.
+	
+	- in collaboration diagram the method call sequence is indicated by some numbering technique
+	
+	-the difference is that the sequence diagram does not describe the object organization where as the collaboration diagram shows the object organization.
+	
+	-If the time sequence is important then sequence diagram is used and if organization is required then collaboration diagram is used.
+		
+		
+4. Explain StateChart diagram?
+
+	- Describes different states of a component(Object) in a system
+	
+	- These states are controlled by internal or external events
+	
+	-  Used to model dynamic nature of the system
+	
+	Before drawing a Statechart diagram we must have clarified the following points:
+
+		- Identify important objects to be analyzed.
+
+		- Identify the states.
+
+		- Identify the events.
+		
+		
+5. Explain activity diagram?
+
+	- Basically a flow chart to represent the flow form one activity to another activity
+	
+	-  The activity can be represented as an operation of the system
+	
+	- This flow can be sequential, branched or concurrent
+	
+	- Other diagrams are used to show the message flow from one object to another object
+	
+	- But activity diagram used to show the control flow from one activity to another activity
+	
+	- Activity is a particular operation of the system
+	
+	-So before drawing an activity diagram we should identify the following elements:
+
+		Activities
+
+		Association
+
+		Conditions
+
+		Constraints
